@@ -1,0 +1,145 @@
+a{
+    font-family: 'Redressed', cursive;
+}
+.header{
+    background-image: url(../img/drink-food_0Q82XJG9H9.jpg);
+    
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    @media only screen and (max-width: 992px) {
+        background-image: url(../img/offer-food_JV9Q4PN6D4.jpg);
+        object-fit: contain;
+    }
+    .pos-f-t{
+        width: 100%; 
+    .navbar{
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        a{
+            color: rgb(190, 52, 52);
+        }
+        .navbar-toggler{
+            border-color: rgb(190, 52, 52);
+            //background-color: rgb(190, 52, 52);
+        }
+    }
+
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .col-md-8{
+            .header-content{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 100px;
+                h1{
+                    color: rgb(190, 52, 52);
+                }
+                .navbar{
+                    input{}
+                    div{
+                        button{
+                            background-color:rgb(190, 52, 52) ;
+                            color: white;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.top-destination{
+    background-color: #f1f1f1;
+    padding: 50px 0px;
+    .div-content{
+
+        .img,.img-1,.img-2,.img-3{
+            background-image: url(../img/donut-sprinkles_46KSWRAA9X.jpg);
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            span{
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                background: rgba(0,0,0,0.3);
+                color: rgb(190, 52, 52);
+            }
+        }
+        .img-1{
+            background-image: url(../img/chocolate-cake_PLONQQVCEA.jpg);
+        }
+        .img-2{
+            background-image: url(../img/donuts-assorted_KP1INNLKLB.jpg);
+        }
+        .img-3{
+            background-image: url(../img/carrot-cake_A48UPBB6XM.jpg);
+        }
+        .des{
+            background-color: white;
+            padding: 10px;
+            h6{
+                color: rgb(190, 52, 52);
+            }
+            
+            p{
+                color: #807c7c;
+            }
+        }
+    }
+}
+.before-you-leave{
+    padding:50px 0px;
+    .row-end{
+        margin-top: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        .end{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            nav{
+                button{
+                    background-color: rgb(190, 52, 52);
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+    .row{
+        h1{
+            margin-bottom: 35px;
+        }
+        .des{
+            h6{
+                color: rgb(190, 52, 52);
+            }
+            p{
+                color: #807c7c;
+            }
+        }
+    }
+}
+footer{
+    background-color: rgb(190, 52, 52);
+    color: white;
+    text-align: center;
+    
+}

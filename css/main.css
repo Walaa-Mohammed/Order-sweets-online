@@ -1,0 +1,192 @@
+a {
+  font-family: 'Redressed', cursive;
+}
+
+.header {
+  background-image: url(../img/drink-food_0Q82XJG9H9.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    background-image: url(../img/offer-food_JV9Q4PN6D4.jpg);
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+.header .pos-f-t {
+  width: 100%;
+}
+
+.header .pos-f-t .navbar {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .pos-f-t .navbar a {
+  color: #be3434;
+}
+
+.header .pos-f-t .navbar .navbar-toggler {
+  border-color: #be3434;
+}
+
+.header .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .row .col-md-8 .header-content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+
+.header .row .col-md-8 .header-content h1 {
+  color: #be3434;
+}
+
+.header .row .col-md-8 .header-content .navbar div button {
+  background-color: #be3434;
+  color: white;
+  border: none;
+}
+
+.top-destination {
+  background-color: #f1f1f1;
+  padding: 50px 0px;
+}
+
+.top-destination .div-content .img, .top-destination .div-content .img-1, .top-destination .div-content .img-2, .top-destination .div-content .img-3 {
+  background-image: url(../img/donut-sprinkles_46KSWRAA9X.jpg);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.top-destination .div-content .img span, .top-destination .div-content .img-1 span, .top-destination .div-content .img-2 span, .top-destination .div-content .img-3 span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #be3434;
+}
+
+.top-destination .div-content .img-1 {
+  background-image: url(../img/chocolate-cake_PLONQQVCEA.jpg);
+}
+
+.top-destination .div-content .img-2 {
+  background-image: url(../img/donuts-assorted_KP1INNLKLB.jpg);
+}
+
+.top-destination .div-content .img-3 {
+  background-image: url(../img/carrot-cake_A48UPBB6XM.jpg);
+}
+
+.top-destination .div-content .des {
+  background-color: white;
+  padding: 10px;
+}
+
+.top-destination .div-content .des h6 {
+  color: #be3434;
+}
+
+.top-destination .div-content .des p {
+  color: #807c7c;
+}
+
+.before-you-leave {
+  padding: 50px 0px;
+}
+
+.before-you-leave .row-end {
+  margin-top: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.before-you-leave .row-end .end {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.before-you-leave .row-end .end nav button {
+  background-color: #be3434;
+  color: white;
+  border: none;
+}
+
+.before-you-leave .row h1 {
+  margin-bottom: 35px;
+}
+
+.before-you-leave .row .des h6 {
+  color: #be3434;
+}
+
+.before-you-leave .row .des p {
+  color: #807c7c;
+}
+
+footer {
+  background-color: #be3434;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
